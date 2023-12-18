@@ -3,7 +3,7 @@
  * has a ferry code and information about both the source and
  * the destination island
  * 
- * @author V S A L Narayana Lanka - Student Id : 21064721
+ * @author Rahul Ravala - Student Id : 21089189
  * @version 10/01/2023
  */
 public class Ferry {
