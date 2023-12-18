@@ -3,8 +3,8 @@ import java.util.*;
 /**
  * Write a description of class CardTester here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Rahul Ravala - Student Id : 21089189
+ * @version 
  */
 public class CardTester {
     public static void main(String[] args) {
