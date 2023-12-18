@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Write a description of class Tester here.
  * 
- * @author V S A L Narayana Lanka - Student Id : 21064721
+ * @author Rahul Ravala - Student Id : 21089189
  * @version
  */
 public class Tester {
