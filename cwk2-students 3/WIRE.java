@@ -2,7 +2,7 @@
 /**
  * interface WIRE specifies requirements for 7COM1015 Cwk 2 - Nov 2022
  * 
- * @author A.Marczyk 
+ * @author Rahul Ravala - Student Id : 21089189
  * @version 05/11/22
  */
 public interface WIRE
