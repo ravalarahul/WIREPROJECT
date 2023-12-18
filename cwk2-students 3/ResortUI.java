@@ -6,7 +6,7 @@ import java.util.*;
  * all the islands, card information, converting journey points, adding credits
  * to a card and also ferry travel can be made using this class
  * 
- * @author V S A L Narayana Lanka - Student Id : 21064721
+ * @author Rahul Ravala - Student Id : 21089189
  * @version 10/01/2022
  */
 public class ResortUI {
