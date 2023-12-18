@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * This class implements the WIRE interface
  *
- * @author A.A.Marczyk
+ * @author Rahul Ravala - Student Id : 21089189
  * @version 05/11/22
  **/
 public class Resort implements WIRE // do not change this header
