@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=BusinessCard
+comment0.text=\n\ BusinessCard\ is\ a\ subclass\ which\ extends\ Card\ class.\n\ \n\ BusinessCards\ are\ created\ with\ a\ specified\ luxury\ rating,\ 30\ credits\ and\ 20\n\ loyalty\ points\n\ \n\ 3\ credits\ are\ deducted\ and\ add\ 2\ loyalty\ points\ are\ added\ whenever\ a\ ferry\n\ journey\ is\ made\n\ \n\ loyalty\ points\ can\ also\ be\ converted\ into\ credits\ (3\ loyalty\ points\ \=\ 1\n\ credit)\n\ \n\ @author\ Rahul\ Ravala\ -\ Student\ Id\ \:\ 21089189\n\ @version\ 10/01/2023\n
+comment1.params=cardId\ name\ luxuryRating
+comment1.target=BusinessCard(int,\ java.lang.String,\ int)
+comment1.text=\n\ constructor\ class\ to\ create\ a\ new\ BusinessCard\ Instance\ with\ fields\ like\n\ cardId,\ Name,\ LuxuryRating,\ Credits,\ Loyalty\ Points.\n\ \n\ BusinessCard\ comes\ with\ 30\ credits\ and\ 20\ loyalty\ points\n
+comment2.params=
+comment2.target=int\ getLoyaltyPoints()
+comment2.text=\n\ Returns\ information\ about\ the\ Loyalty\ Points\ present\ on\ a\ card.\n\ \n\ @return\ loyalty\ points\ present\ on\ a\ card\n
+comment3.params=loyaltyPoints
+comment3.target=void\ setLoyaltyPoints(int)
+comment3.text=\n\ This\ method\ take\ Integer\ input\ and\ set\ the\ LoyaltyPoints\ as\ per\ the\ value\n\ entered\n\ \n\ @param\ takes\ Integer\ input\ of\ loyaltyPoints\n
+comment4.params=
+comment4.target=boolean\ canTravel()
+comment4.text=\n\ Method\ to\ check\ if\ a\ card\ meets\ all\ conditions\ required\ to\ travel\ on\ a\ ferry\n\ \n\ This\ method\ overrides\ the\ original\ Card\ class\ method\n\n\ @return\ boolean\ value\ if\ a\ card\ can\ travel\ on\ a\ ferry\n
+comment5.params=
+comment5.target=void\ travel()
+comment5.text=\n\ Method\ to\ make\ changes\ to\ the\ card\ parameters\ when\ a\ travel\ is\ made\ from\ one\n\ island\ to\ another\ island.\ These\ changes\ include\ deduction\ of\ specified\n\ credits\ from\ a\ card\ and\ also\ add\ loyalty\ points\ to\ the\ card\ .\n\ \n\ for\ a\ business\ card\ when\ a\ travel\ is\ made\ 3\ credits\ are\ deducted\ and\ 2\n\ loyaltyPoints\ were\ added.\n\ \n\ This\ method\ overrides\ the\ original\ Card\ class\ method.\n
+comment6.params=
+comment6.target=void\ pointsConverter()
+comment6.text=\n\ Method\ to\ convert\ Journey\ points\ acquired\ by\ a\ card\ making\ ferry\ journey\ from\n\ one\ island\ to\ another\ island\ to\ credits.\n\ \n\ for\ a\ card\ 5\ Journey\ Points\ \=\ 1\ credit\n\ \n\ This\ method\ overrides\ the\ original\ Card\ class\ methood\n
+comment7.params=
+comment7.target=void\ LoyaltyPointsConverter()
+comment7.text=\n\ Method\ to\ convert\ Loyalty\ points\ acquired\ by\ a\ card\ making\ ferry\ journey\ from\n\ one\ island\ to\ another\ island\ to\ credits.\n\ \n\ for\ a\ business\ card\ 3\ loyaltyPoints\ \=\ 1\ credit\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\n\ Method\ to\ return\ all\ the\ necessary\ details\ of\ the\ card\ including\ CardId,\n\ Name,\ LuxuryRating,\ Credits,\ Journey\ Points,\ Type\ and\ Loyalty\ Points.\n\ \n\ This\ method\ overrides\ the\ original\ 'toString'\ method\n\ \n\ @return\ all\ details\ of\ the\ card\ including\ CardId,\n\ \ \ \ \ \ \ \ \ Name,\ LuxuryRating,\ Credits,\ Journey\ Points,\ Type\ and\ Loyalty\ Points.\n
+numComments=9

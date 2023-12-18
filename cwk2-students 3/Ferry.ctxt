@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Ferry
+comment0.text=\n\ A\ ferry\ provides\ a\ one-way\ journey\ between\ two\ islands.\ It\n\ has\ a\ ferry\ code\ and\ information\ about\ both\ the\ source\ and\n\ the\ destination\ island\n\ \n\ @author\ V\ S\ A\ L\ Narayana\ Lanka\ -\ Student\ Id\ \:\ 21064721\n\ @version\ 10/01/2023\n
+comment1.params=name\ sourceName\ destinationName
+comment1.target=Ferry(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ method\ used\ to\ create\ instance\ of\ a\ new\ ferry\n
+comment2.params=
+comment2.target=java.lang.String\ getFerryName()
+comment2.text=\n\ method\ to\ get\ the\ ferry\ name\ of\ an\ instance\ created\n\ \n\ @return\ name\ of\ the\ ferry\ instance\ created\n
+comment3.params=ferryName
+comment3.target=void\ setFerryName(java.lang.String)
+comment3.text=\n\ method\ to\ set\ the\ ferry\ name\ of\ an\ instance\ created\n\ \n\ @param\ take\ String\ Integer\ as\ input\ and\ set\ the\ name\ of\ the\ Ferry\n
+comment4.params=
+comment4.target=java.lang.String\ getSourceIsland()
+comment4.text=\n\ method\ to\ get\ the\ source\ island\ from\ where\ is\ ferry\ is\ starting\n\ \n\ @return\ name\ of\ the\ source\ island\ from\ where\ the\ ferry\ is\ starting\n
+comment5.params=
+comment5.target=java.lang.String\ getDestinationIsland()
+comment5.text=\n\ method\ to\ get\ the\ destination\ island\ name\ to\ where\ the\ ferry\ reaches\n\ \n\ @return\ name\ of\ the\ destination\ island\ where\ ferry\ reaches\n
+comment6.params=card\ SourceIsland\ DestinationIsland
+comment6.target=java.lang.String\ FerryChecker(Card,\ Island,\ Island)
+comment6.text=\n\ This\ Methods\ check\ the\ required\ conditions\ to\ travel\ from\ one\ island\ to\n\ another\ island\ and\ returns\ information\ about\ the\ travel\ and\ also\ returns\n\ error\ messages\ if\ any\ are\ present\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ toString\ method\ which\ overrides\ the\ toString\ method\ of\ the\ object\ which\n\ returns\ the\ necessary\ details\ of\ the\ ferry\n\ \n\ @return\ details\ of\ the\ ferry\ like\ Name,\ Source\ Island,\ Destination\ Island\n
+numComments=8

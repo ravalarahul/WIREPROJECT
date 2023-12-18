@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=WIRE
+comment0.text=\r\n\ interface\ WIRE\ specifies\ requirements\ for\ 7COM1015\ Cwk\ 2\ -\ Nov\ 2022\r\n\ \r\n\ @author\ A.Marczyk\ \r\n\ @version\ 05/11/22\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Returns\ information\ about\ the\ resort\ including\ its\ location/name\ and\ all\r\n\ cards\ currently\ on\ each\ island,\ or\ "No\ cards"\ (if\ no\ card\ on\ that\ island\r\n\ @return\ all\ of\ the\ details\ of\ all\ islands\ including\ location\ \r\n\ and\ all\ cards\ currently\ on\ each\ island,\ or\ "No\ cards"\ if\ island\ has\ no\ cards\r\n
+comment10.params=id
+comment10.target=void\ convertPoints(int)
+comment10.text=\ Converts\ a\ card's\ journey\ points\ into\ credits\r\n\ @param\ id\ the\ id\ of\ the\ card\ whose\ points\ are\ to\ be\ converted\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAllCardsOnAllIslands()
+comment2.text=Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ all\ islands\r\n\ with\ "No\ cards"\ if\ there\ are\ no\ cards\ on\ an\ island\r\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ all\ islands\r\n
+comment3.params=cd
+comment3.target=java.lang.String\ findCardLocation(int)
+comment3.text=Returns\ the\ name\ of\ the\ island\ which\ contains\ the\ specified\ card\ or\ "Not\ found"\r\n\ @param\ cd\ -\ the\ id\ of\ the\ card\r\n\ @return\ the\ name\ of\ the\ island\ which\ contains\ the\ card,\ or\ "Not\ found"\r\n
+comment4.params=cd
+comment4.target=java.lang.String\ viewACard(int)
+comment4.text=Returns\ details\ of\ the\ card\ with\ the\ specified\ id\ or\ "Not\ found"\r\n\ @param\ cd\ -\ the\ id\ of\ the\ card\r\n\ @return\ the\ details\ of\ the\ card,\ or\ "Not\ found"\r\n
+comment5.params=isl
+comment5.target=int\ getIslandNumber(java.lang.String)
+comment5.text=\ Given\ the\ name\ of\ a\ island,\ returns\ the\ island\ id\ number\r\n\ or\ -1\ if\ island\ does\ not\ exist\r\n\ @param\ isl\ is\ the\ name\ of\ island\r\n\ @return\ id\ number\ of\ island\r\n
+comment6.params=isl
+comment6.target=java.lang.String\ getAllCardsOnIsland(java.lang.String)
+comment6.text=Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ a\ specified\ island\r\n\ @param\ isl\ -\ the\ name\ of\ the\ island\r\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ specified\ island\r\n
+comment7.params=cdId\ ferCode
+comment7.target=boolean\ canTravel(int,\ java.lang.String)
+comment7.text=Returns\ true\ if\ a\ Card\ is\ allowed\ to\ journey\ using\ a\ ferry,\ false\ otherwise\r\n\ A\ journey\ can\ be\ made\ if\:\ \ \r\n\ the\ rating\ of\ the\ card\ \ >\=\ the\ rating\ of\ the\ destination\ island\r\n\ AND\ the\ destination\ island\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\ (a\ journey\ costs\ 3\ credits)\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ island\ \r\n\ AND\ the\ card\ id\ and\ ferry\ code\ represent\ objects\ in\ the\ system\r\n\ @param\ cdId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ ferCode\ is\ the\ code\ of\ the\ ferry\ journey\ by\ which\ the\ card\ wants\ to\ move\r\n\ @return\ true\ if\ the\ card\ is\ allowed\ on\ the\ ferry\ journey,\ false\ otherwise\ \r\n
+comment8.params=pCardId\ ferCode
+comment8.target=java.lang.String\ travel(int,\ java.lang.String)
+comment8.text=Returns\ the\ result\ of\ a\ card\ requesting\ to\ journey\ by\ Ferry.\r\n\ A\ journey\ will\ be\ successful\ if\:\ \ \r\n\ the\ luxury\ rating\ of\ the\ card\ \ >\=\ the\ luxury\ rating\ of\ the\ destination\ island\r\n\ AND\ the\ destination\ island\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ island\r\n\ AND\ both\ the\ card\ id\ and\ the\ ferry\ code\ is\ on\ the\ system\r\n\ If\ the\ ferry\ journey\ can\ be\ made,\ the\ card\ is\ removed\ from\ the\ source\ island,\r\n\ added\ to\ the\ destination\ island\ and\ a\ suitable\ message\ returned.\ Card\ \r\n\ information\ should\ be\ updated\ (A\ journey\ costs\ 3\ credits\ and\ journey\ points\ incremented\ by\ 1)\r\n\ If\ the\ ferry\ journey\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\r\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\r\n\ @param\ pCardId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ ferCode\ is\ the\ code\ of\ the\ ferry\ by\ which\ the\ card\ wants\ to\ travel\r\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\ \r\n
+comment9.params=id\ creds
+comment9.target=void\ topUpCredits(int,\ int)
+comment9.text=\ Allows\ credits\ to\ be\ added\ to\ a\ card.\r\n\ \ @param\ id\ the\ id\ of\ the\ card\ toping\ up\ their\ credits\r\n\ \ @param\ creds\ the\ number\ of\ credits\ to\ be\ added\ to\ card\ \r\n
+numComments=11

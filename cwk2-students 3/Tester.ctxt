@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=\n\ Write\ a\ description\ of\ class\ Tester\ here.\n\ \n\ @author\ V\ S\ A\ L\ Narayana\ Lanka\ -\ Student\ Id\ \:\ 21064721\n\ @version\n
+comment1.params=
+comment1.target=void\ doTest()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
